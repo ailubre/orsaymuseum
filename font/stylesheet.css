@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'Magnat Text';
+    src: url('Magnat-TextMedium.eot');
+    src: local('Magnat Text Medium'), local('Magnat-TextMedium'),
+        url('Magnat-TextMedium.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-TextMedium.woff2') format('woff2'),
+        url('Magnat-TextMedium.woff') format('woff'),
+        url('Magnat-TextMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnat Text';
+    src: url('Magnat-TextLightItalic.eot');
+    src: local('Magnat Text Light Italic'), local('Magnat-TextLightItalic'),
+        url('Magnat-TextLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-TextLightItalic.woff2') format('woff2'),
+        url('Magnat-TextLightItalic.woff') format('woff'),
+        url('Magnat-TextLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Magnat Text';
+    src: url('Magnat-TextRegularItalic.eot');
+    src: local('Magnat Text Regular Italic'), local('Magnat-TextRegularItalic'),
+        url('Magnat-TextRegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-TextRegularItalic.woff2') format('woff2'),
+        url('Magnat-TextRegularItalic.woff') format('woff'),
+        url('Magnat-TextRegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Magnat Head';
+    src: url('Magnat-HeadExtraBold.eot');
+    src: local('Magnat Head ExtraBold'), local('Magnat-HeadExtraBold'),
+        url('Magnat-HeadExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-HeadExtraBold.woff2') format('woff2'),
+        url('Magnat-HeadExtraBold.woff') format('woff'),
+        url('Magnat-HeadExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnat Head';
+    src: url('Magnat-HeadLight.eot');
+    src: local('Magnat Head Light'), local('Magnat-HeadLight'),
+        url('Magnat-HeadLight.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-HeadLight.woff2') format('woff2'),
+        url('Magnat-HeadLight.woff') format('woff'),
+        url('Magnat-HeadLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnat Text';
+    src: url('Magnat-TextBoldItalic.eot');
+    src: local('Magnat Text Bold Italic'), local('Magnat-TextBoldItalic'),
+        url('Magnat-TextBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-TextBoldItalic.woff2') format('woff2'),
+        url('Magnat-TextBoldItalic.woff') format('woff'),
+        url('Magnat-TextBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Magnat Text';
+    src: url('Magnat-TextLight.eot');
+    src: local('Magnat Text Light'), local('Magnat-TextLight'),
+        url('Magnat-TextLight.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-TextLight.woff2') format('woff2'),
+        url('Magnat-TextLight.woff') format('woff'),
+        url('Magnat-TextLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnat Text';
+    src: url('Magnat-TextExtraBoldItalic.eot');
+    src: local('Magnat Text ExtraBold Italic'), local('Magnat-TextExtraBoldItalic'),
+        url('Magnat-TextExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-TextExtraBoldItalic.woff2') format('woff2'),
+        url('Magnat-TextExtraBoldItalic.woff') format('woff'),
+        url('Magnat-TextExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Magnat Head';
+    src: url('Magnat-HeadSemiBoldItalic.eot');
+    src: local('Magnat Head SemiBold Italic'), local('Magnat-HeadSemiBoldItalic'),
+        url('Magnat-HeadSemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-HeadSemiBoldItalic.woff2') format('woff2'),
+        url('Magnat-HeadSemiBoldItalic.woff') format('woff'),
+        url('Magnat-HeadSemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Magnat Head';
+    src: url('Magnat-HeadRegular.eot');
+    src: local('Magnat Head Regular'), local('Magnat-HeadRegular'),
+        url('Magnat-HeadRegular.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-HeadRegular.woff2') format('woff2'),
+        url('Magnat-HeadRegular.woff') format('woff'),
+        url('Magnat-HeadRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnat Head';
+    src: url('Magnat-HeadLightItalic.eot');
+    src: local('Magnat Head Light Italic'), local('Magnat-HeadLightItalic'),
+        url('Magnat-HeadLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-HeadLightItalic.woff2') format('woff2'),
+        url('Magnat-HeadLightItalic.woff') format('woff'),
+        url('Magnat-HeadLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Magnat Head';
+    src: url('Magnat-HeadBoldItalic.eot');
+    src: local('Magnat Head Bold Italic'), local('Magnat-HeadBoldItalic'),
+        url('Magnat-HeadBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-HeadBoldItalic.woff2') format('woff2'),
+        url('Magnat-HeadBoldItalic.woff') format('woff'),
+        url('Magnat-HeadBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Magnat Head';
+    src: url('Magnat-HeadBold.eot');
+    src: local('Magnat Head Bold'), local('Magnat-HeadBold'),
+        url('Magnat-HeadBold.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-HeadBold.woff2') format('woff2'),
+        url('Magnat-HeadBold.woff') format('woff'),
+        url('Magnat-HeadBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnat Head';
+    src: url('Magnat-HeadMedium.eot');
+    src: local('Magnat Head Medium'), local('Magnat-HeadMedium'),
+        url('Magnat-HeadMedium.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-HeadMedium.woff2') format('woff2'),
+        url('Magnat-HeadMedium.woff') format('woff'),
+        url('Magnat-HeadMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnat Head';
+    src: url('Magnat-HeadExtraBoldItalic.eot');
+    src: local('Magnat Head ExtraBold Italic'), local('Magnat-HeadExtraBoldItalic'),
+        url('Magnat-HeadExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-HeadExtraBoldItalic.woff2') format('woff2'),
+        url('Magnat-HeadExtraBoldItalic.woff') format('woff'),
+        url('Magnat-HeadExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Magnat Text';
+    src: url('Magnat-TextSemiBoldItalic.eot');
+    src: local('Magnat Text SemiBold Italic'), local('Magnat-TextSemiBoldItalic'),
+        url('Magnat-TextSemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-TextSemiBoldItalic.woff2') format('woff2'),
+        url('Magnat-TextSemiBoldItalic.woff') format('woff'),
+        url('Magnat-TextSemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Magnat Text';
+    src: url('Magnat-TextRegular.eot');
+    src: local('Magnat Text Regular'), local('Magnat-TextRegular'),
+        url('Magnat-TextRegular.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-TextRegular.woff2') format('woff2'),
+        url('Magnat-TextRegular.woff') format('woff'),
+        url('Magnat-TextRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnat Text';
+    src: url('Magnat-TextSemiBold.eot');
+    src: local('Magnat Text SemiBold'), local('Magnat-TextSemiBold'),
+        url('Magnat-TextSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-TextSemiBold.woff2') format('woff2'),
+        url('Magnat-TextSemiBold.woff') format('woff'),
+        url('Magnat-TextSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnat Text';
+    src: url('Magnat-TextBold.eot');
+    src: local('Magnat Text Bold'), local('Magnat-TextBold'),
+        url('Magnat-TextBold.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-TextBold.woff2') format('woff2'),
+        url('Magnat-TextBold.woff') format('woff'),
+        url('Magnat-TextBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnat Text';
+    src: url('Magnat-TextMediumItalic.eot');
+    src: local('Magnat Text Medium Italic'), local('Magnat-TextMediumItalic'),
+        url('Magnat-TextMediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-TextMediumItalic.woff2') format('woff2'),
+        url('Magnat-TextMediumItalic.woff') format('woff'),
+        url('Magnat-TextMediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Magnat Text';
+    src: url('Magnat-TextExtraBold.eot');
+    src: local('Magnat Text ExtraBold'), local('Magnat-TextExtraBold'),
+        url('Magnat-TextExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-TextExtraBold.woff2') format('woff2'),
+        url('Magnat-TextExtraBold.woff') format('woff'),
+        url('Magnat-TextExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnat Head';
+    src: url('Magnat-HeadRegularItalic.eot');
+    src: local('Magnat Head Regular Italic'), local('Magnat-HeadRegularItalic'),
+        url('Magnat-HeadRegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-HeadRegularItalic.woff2') format('woff2'),
+        url('Magnat-HeadRegularItalic.woff') format('woff'),
+        url('Magnat-HeadRegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Magnat Head';
+    src: url('Magnat-HeadSemiBold.eot');
+    src: local('Magnat Head SemiBold'), local('Magnat-HeadSemiBold'),
+        url('Magnat-HeadSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-HeadSemiBold.woff2') format('woff2'),
+        url('Magnat-HeadSemiBold.woff') format('woff'),
+        url('Magnat-HeadSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Magnat Head';
+    src: url('Magnat-HeadMediumItalic.eot');
+    src: local('Magnat Head Medium Italic'), local('Magnat-HeadMediumItalic'),
+        url('Magnat-HeadMediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Magnat-HeadMediumItalic.woff2') format('woff2'),
+        url('Magnat-HeadMediumItalic.woff') format('woff'),
+        url('Magnat-HeadMediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
